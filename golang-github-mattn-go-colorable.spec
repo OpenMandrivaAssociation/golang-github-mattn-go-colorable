@@ -19,6 +19,7 @@ URL:		https://github.com/mattn/go-colorable
 License:	MIT
 Group:		Development/Other
 BuildRequires:	compiler(go-compiler)
+BuildRequires:	golang(github.com/mattn/go-isatty)
 
 %description
 Colorable writer for windows.
